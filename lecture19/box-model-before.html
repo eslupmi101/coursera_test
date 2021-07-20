@@ -4,13 +4,20 @@
 	<meta charset="utf-8">
 	<title>The Boxmodel</title>
 <style>
+
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body
 {
 	margin-bottom: 0;
-	margin-top: 0;
 	margin: 0;
 	padding: 0;
-	background-color: grays
+	background-color: grays;
 
 }
 
@@ -18,9 +25,11 @@ body
 {
 	padding: 10px 30px 10px 30px;
 	background-color: blue;
-	border: 20px solid black;
+	border: 5px solid black;
 	margin: 40px;
 	width: 300px;
+	height: 100px;
+	overflow: auto;
 }
 #content 
 {
@@ -31,7 +40,6 @@ body
 
 h1
 {
-	margin: 0;
 	margin-bottom: 30px;
 }
 </style>
@@ -39,7 +47,7 @@ h1
 <body>
 <h1>Box Model<h2>
 <div id="box"> 
-	<div id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+	<div id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.2332 asd as  asd sa dsa asd as sad asd as </div>
 </div>
 </body>
 </html>
