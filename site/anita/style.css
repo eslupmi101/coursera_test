@@ -1,12 +1,10 @@
 #sulka
 {
+  margin: auto;
   position: absolute;
   font-size: 200%;
   text-align: center;
-  top: 430px;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  vertical-align: bottom;
 } 
 a:link, a:visited
 {
@@ -40,6 +38,7 @@ body {
   margin: auto;
   position: absolute;
   margin-top: 15px;
+  vertical-align: middle;
   top: 0;
   right: 0;
   bottom: 0;
