@@ -1,10 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #sulka
 {
-  margin: auto;
-  position: absolute;
-  font-size: 200%;
-  text-align: center;
-  vertical-align: bottom;
+	float: both;
+    font-size: 300%;
+  	text-align: center;
+  	margin-top: 100px;
 } 
 a:link, a:visited
 {
@@ -32,19 +37,14 @@ body {
 }
 
 .stage {
-  float: left;
-  height: 300px;
-  width: 500px;
-  margin: auto;
-  position: absolute;
-  margin-top: 15px;
-  vertical-align: middle;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  perspective: 9999px;
-  transform-style: preserve-3d;
+	left: 140px;
+	text-align: center;
+	position: relative;
+	font-size: 200%;
+    height: 300px;
+    width: 500px;
+    perspective: 9999px;
+    transform-style: preserve-3d;
 }
 
 .layer {
